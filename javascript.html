@@ -1,0 +1,32 @@
+<!-- <html>
+<body>
+<h1>page</h1>
+<p id="de"> age  </p>
+<button type="button" onclick="ab()"> voting </button>
+<script>
+    function ab()
+{
+    document.getElementById("de").innerHTML=;
+}
+</script>
+</body>
+</html>            -->
+
+<head>
+    <script>
+        function vote(age){
+            var yes="not eigible";
+            if(age>=18){
+                yes="eligible";
+            }
+            document.write(" <b>"+yes+"</b> for Vote");
+        }
+    </script>
+</head>
+<body>
+    <script>
+        var age=parseInt(prompt("Enter age"));
+        vote(age);
+    </script>
+</body>
+</html>

@@ -1,0 +1,328 @@
+
+
+
+
+
+ <!-- <html>
+<head>
+<title>Find the area OF circle</title>
+</head>
+<body>
+  <script language="JavaScript">
+    function CalculateArea(){
+        var radius =document.form1.txtRadius.value;
+        document.write("<P> AREA OF CIRCLE = " + (radius * radius * Math.PI) + "</p>");
+    }
+    </script>
+    <form name=form1>
+        <i>Enter the radius of circle</i>
+       <input style="text-align: center;"  type="text" name="txtRadius">
+       <input type="button" value="Calculate" onClick='CalculateArea();'>  
+    </form>
+</script>
+</body>
+</html> -->
+
+
+
+
+
+
+
+<!-- <html>
+<head>
+<title>Add Two Numbers</title>
+<script>
+  var num1 = 30;
+  var num2 = 80;
+  var sum = num1+num2;
+  
+  document.write("Sum = " +sum);
+ 
+</script>
+</head>
+
+</html> -->
+
+
+
+
+
+
+
+ <!-- <html>
+    <head>
+    <title>function</title>    
+    <script>
+    function effect ()
+    {
+        var x=document.getElementById("p1");
+        x.style.backgroundColor="blue";
+    }
+       function effectback()
+    {
+        var x=document.getElementById("p1");
+        x.style.backgroundColor="red";
+    }
+    function green(){
+        var x=document.getElementById("p1");
+        x.style.backgroundColor="green";
+    }
+    
+    </script>
+    </head>
+    <body>
+    <script>
+      function myname()   
+    {  
+       document.write("PURVA")
+      
+    }
+    </script>    
+    <p><b>My name ---  <button onclick ="myname()">Name </button> </p></b> -->
+    <!-- <input style="background-color: aqua;"  type=button value=myname onclick="myname();">
+    <p Id ="p1"onmouseover="effect()"
+               onmouseout="effectback()"
+               onmousewheel="green()"
+               >
+        blueeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+        
+        </script>
+        </body>
+        </html> --> -->
+        
+
+
+
+
+
+
+
+
+
+<html>
+    <body>
+        <script>
+            function circle(){
+                var r=6;
+                var p=5; 
+                var add=r+p;
+                document.write("add " +add);
+            }
+        </script>
+        <input type="button" value="Calculate area" onClick="circle()">  
+    </body>
+</html>
+
+
+<!-- <html>
+    <body>
+        <script>
+
+            window.alert("fuckoff");
+        </script>
+    </body>
+</html> -->
+
+<!-- <html>
+    <<body>
+        <script>
+            function rectangle(){
+                var l=5;
+                var b=8;
+                area=l*b;
+                document.write("area "+area);
+            }
+            
+        </script>
+        <input type="button" value="area" onclick="rectangle()">
+    </body>
+    </html> --> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- <html>
+ <body>
+<button onclick="myFunction()">Open alert box</button>
+<script>
+function myFunction() {
+  alert("alert box!");
+}
+</script>
+</body>
+</html>  -->
+
+
+
+
+
+
+<!-- <html>
+<head>
+<title>Time</title>
+<script type="text/javascript"> 
+function show_now() { 
+var my_time = new Date();
+document.getElementById('display').innerHTML=my_time
+}
+</script>
+</head>
+<body>
+<input style="background-color: aqua;"  type=button value="Time & Date " onclick="show_now();">
+<div id=display></div>
+</body>
+</html>  -->
+
+
+
+<!-- <!DOCTYPE html>
+<html> 
+<head>
+<title>Rectangle</title>
+ </head>
+<body>
+<h1 >Area of Rectangle</h1>
+<button onclick="message()" > click me </button>
+<script>
+function message(){
+var Length= 8;
+var Width= 2;
+var Area = Length * Width;
+ document.write( "AREA OF RECTANGLE "+Area  );
+}
+</script> </html> -->
+
+
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body>
+        <p id="id1">Purva</p>
+    </body>
+    <script>
+        document.getElementById("id1").innerHTML= 8+4;
+    </script>
+</html> -->
+
+
+
+<!-- <html>
+    <body>
+        <script>
+            function add(x,y){
+                var a;
+                if(x<=y){
+                    a=x+y;
+                }
+                else{
+                    a=x-y;
+                }
+                document.write(a);
+            }
+        </script>
+        <input type="button" onclick="add(40,60)" value="VEIW">
+    </body>
+</html> -->
+
+
+
+<!-- <html>
+    <body onload="askname();">
+        <script>
+            function askname(){
+                var username=prompt("enter your name");
+                document.getElementById("name").innerHTML=username;
+            }
+        </script>
+     <h1 id="name"></h1>
+    </body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewpart" content="width =device-width,initial-scale=1">
+        <style>
+            .dropbtn{
+                background-color: skyblue;
+                color: red;
+                padding: 16px;
+                font-size: 16px;
+                border: 20px;
+                cursor: pointer;
+            }
+            .dropbtn:hover,.dropbtn:focus{
+                background-color: blue;
+            }
+            .dropdown{
+                position: relative;
+                display: block;
+            }
+            .dropdown ::content{
+                display:none;
+                position: absolute;
+                background-color: yellow;
+                min-height: 160px; 
+                overflow: auto;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+            .dropdown::content {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+            .dropdown a:hover{
+                background-color: white;
+            }
+            .show{
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <h2><b>clickable dropdown</b></h2>
+        <p><b>click on button to open dropdown menu</b></p>
+        <div class="dropdown">
+        <button onclick="myfunction()" class="dropbtn"><b>dropdown</b></button>    
+        <div id="mydropown" class="dropdown::content">
+            <a href="#home"><b><u>home</u></b></a>
+            <a href="#about"><b><u>about</u></b></a>
+            <a href="#contact"><b><u>contact</u></b></a>
+        </div>
+        </div>
+
+        <script>
+            function myFunction(){
+                document.getElementById("my dropdown").classList.toggle("show");
+            }
+            window.onclick=function(event){
+                if(!event.target.matches('.dropbtn')){
+                    var dropdown=document.getElementByclassname("dropdown::content");
+                    var i;
+                    for(i=0;i<dropdown.length;i++){
+                        var opendropdown=dropdown[i];
+                        if(opendropdown.classList.contains('.show')){
+                            opendropdown.classList.remove('.show');
+                        }
+                    }
+                }
+            }
+        </script>
+    </body>
+</html> -->
+

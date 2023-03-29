@@ -1,0 +1,109 @@
+body{
+    background-color:darkgray;
+  }
+  h2{
+    text-align: center;
+    background-color: black;
+    color: antiquewhite;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  li {
+    float: left;
+  }
+  
+  li a {
+    
+    display: block;
+    color:maroon ;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:black;
+  }
+  h3{
+    margin: 0;
+    text-align: center;
+    background-color: black;
+    color: burlywood;
+  }
+
+ ul{
+    background-color: aqua;
+    color: black;
+ }
+  .dropdown {
+    position:static;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display:block;
+  }
+  
+  
+  /* table{
+    padding: 12px 16px;
+    margin: 2px;
+    border: 2px;
+    
+  } */
+  table, th, td {
+    border:2px solid rgb(151, 46, 46);
+  
+  } 
+/* 
+  Fort Aguada.
+Baga Beach
+Basilica of Bom Jesus.
+Dudhsagar Falls
+
+
+
+
+Hawa Mahal	
+Jantar Mantar 
+Jal Mahal	
+Albert Hall Museum
+
+
+Gandhinagar.
+Rann Of Kutch.
+Marine National Park.
+Gir National Park.
+
+
+Hanuman Mandir.
+Great Buddha Statue.
+Nalanda. 
+Nalanda University Ruins.
+Vishnupad Temple.
+
+
+Juhu
+ gateway of india,
+  marine drive,
+   shiddivinayal */
+
+
+
+   /* metro station nearest 
+   ticket cost 
+   approx time to visit  */
